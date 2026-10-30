@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_principal">#276E42</color>
+    <color name="color_principal_oscuro">#1E5633</color>
+    <color name="bg_card">#131E2F</color>
+    <color name="fondo_app">#F4F6F8</color>
+    <color name="sheet_bg">#FFFFFF</color>
+    <color name="texto_primario">#1B1F24</color>
+    <color name="texto_secundario">#5F6B7A</color>
+    <color name="texto_card">#FFFFFF</color>
+    <color name="texto_card_secundario">#B8C4D6</color>
+    <color name="color_pendiente">#C77700</color>
+    <color name="color_pagada">#2E7D32</color>
+    <color name="color_anulada">#6B7280</color>
+    <color name="color_saldo">#7ED99A</color>
+    <color name="progress_track">#33FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="divisor">#22000000</color>
+</resources>

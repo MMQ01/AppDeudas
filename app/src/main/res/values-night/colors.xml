@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo_app">#0E1621</color>
+    <color name="sheet_bg">#1C2733</color>
+    <color name="texto_primario">#ECEDEE</color>
+    <color name="texto_secundario">#AAB4C3</color>
+    <color name="bg_card">#1B2839</color>
+    <color name="divisor">#33FFFFFF</color>
+</resources>

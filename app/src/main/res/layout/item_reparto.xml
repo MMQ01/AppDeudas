@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/texto_primario"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@id/tvBadge"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_badge"
+        android:backgroundTint="@color/color_pagada"
+        android:paddingLeft="8dp"
+        android:paddingTop="2dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="2dp"
+        android:text="@string/pg_se_paga"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/tvNombre"
+        app:layout_constraintEnd_toStartOf="@id/etMonto"
+        app:layout_constraintStart_toEndOf="@id/tvNombre"
+        app:layout_constraintTop_toTopOf="@id/tvNombre" />
+
+    <TextView
+        android:id="@+id/tvDetalle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/texto_secundario"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@id/etMonto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNombre" />
+
+    <EditText
+        android:id="@+id/etMonto"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="@null"
+        android:gravity="end"
+        android:hint="@string/pg_monto_hint"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:textColor="@color/texto_primario"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

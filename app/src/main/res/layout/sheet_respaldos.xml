@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bkg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/respaldos_titulo"
+            android:textColor="@color/texto_primario"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/respaldos_descripcion"
+            android:textColor="@color/texto_secundario"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnCrear"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/color_principal"
+            android:text="@string/respaldos_crear"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvVacio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/respaldos_vacio"
+            android:textColor="@color/texto_secundario"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/accion_cancelar"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

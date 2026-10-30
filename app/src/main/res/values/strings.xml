@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">AppDeudas</string>
+    <string name="bienvenida_slogan">Control de deudas</string>
+
+    <!-- Clientes -->
+    <string name="clientes_titulo">Clientes</string>
+    <string name="clientes_buscar">Buscar por nombre o teléfono</string>
+    <string name="clientes_vacio">Aún no tienes clientes, toca + para agregar</string>
+    <string name="accion_agregar_cliente">Agregar cliente</string>
+    <string name="accion_desde_contactos">Desde contactos</string>
+    <string name="accion_manual">Manual</string>
+    <string name="cliente_nuevo">Nuevo cliente</string>
+    <string name="cliente_editar_nombre">Editar nombre</string>
+    <string name="campo_nombre">Nombre</string>
+    <string name="campo_celular">Celular</string>
+    <string name="accion_guardar">Guardar</string>
+    <string name="accion_cancelar">Cancelar</string>
+    <string name="accion_eliminar">Eliminar</string>
+    <string name="error_nombre">Escribe el nombre</string>
+    <string name="error_celular">Celular inválido: 10 dígitos que empiecen por 3</string>
+    <string name="cliente_existe">Ese cliente ya existe</string>
+    <string name="cliente_reactivado">Cliente reactivado con su historial</string>
+    <string name="cliente_eliminado">Cliente eliminado</string>
+    <string name="cliente_eliminar_titulo">Eliminar cliente</string>
+    <string name="cliente_eliminar_mensaje">El cliente dejará de aparecer en la lista. Su historial se conserva y vuelve si lo agregas de nuevo. ¿Continuar?</string>
+    <string name="seleccionar_numero">Selecciona el número</string>
+    <string name="contacto_sin_numero">El contacto no tiene número registrado</string>
+    <string name="contacto_error">No se pudo leer el contacto</string>
+    <string name="permiso_contactos">Se necesita permiso para leer los contactos</string>
+    <string name="pendientes_cantidad">%1$d pendientes</string>
+    <string name="total_pendiente">Total pendiente</string>
+    <string name="telefono">Teléfono</string>
+
+    <!-- Deudas -->
+    <string name="deudas_titulo">Deudas</string>
+    <string name="filtro_pendientes">Pendientes</string>
+    <string name="filtro_pagadas">Pagadas</string>
+    <string name="filtro_anuladas">Anuladas</string>
+    <string name="filtro_todas">Todas</string>
+    <string name="deudas_vacio">No hay deudas en este filtro</string>
+    <string name="nueva_deuda">Nueva deuda</string>
+    <string name="editar_deuda">Editar deuda</string>
+    <string name="campo_descripcion">Descripción</string>
+    <string name="campo_valor">Valor</string>
+    <string name="error_valor">El valor debe ser mayor que 0</string>
+    <string name="accion_abonar">Abonar</string>
+    <string name="accion_marcar_pagada">Marcar pagada</string>
+    <string name="accion_editar">Editar</string>
+    <string name="accion_anular">Anular</string>
+    <string name="accion_ver_abonos">Ver abonos</string>
+    <string name="accion_reabrir">Reabrir</string>
+    <string name="confirmar_pagar_titulo">Marcar como pagada</string>
+    <string name="confirmar_pagar_mensaje">Se registrará un abono por el saldo restante. ¿Continuar?</string>
+    <string name="confirmar_reabrir_titulo">Reabrir deuda</string>
+    <string name="confirmar_reabrir_mensaje">Se anulará el último abono registrado. ¿Continuar?</string>
+    <string name="confirmar_anular_titulo">Anular deuda</string>
+    <string name="confirmar_anular_mensaje">La deuda quedará solo para consulta y no contará en los totales. Lo que recibió de abonos generales vuelve al saldo a favor del cliente. ¿Continuar?</string>
+    <string name="deuda_anulada">Deuda anulada</string>
+    <string name="deuda_pagada">Deuda marcada como pagada</string>
+    <string name="deuda_reabierta">Deuda reabierta</string>
+    <string name="deuda_guardada">Deuda guardada</string>
+    <string name="valor_etiqueta">Valor: %1$s</string>
+    <string name="saldo_etiqueta">Saldo: %1$s</string>
+    <string name="estado_pendiente">Pendiente</string>
+    <string name="estado_pagada">Pagada</string>
+    <string name="estado_anulada">Anulada</string>
+    <string name="fecha_pago_etiqueta">Pagada el %1$s</string>
+    <string name="fecha_deuda_etiqueta">Fecha: %1$s</string>
+
+    <!-- Abonos -->
+    <string name="abonos_titulo">Abonos</string>
+    <string name="abonar_titulo">Abonar</string>
+    <string name="abonado">Abonado</string>
+    <string name="saldo">Saldo</string>
+    <string name="valor">Valor</string>
+    <string name="campo_nota">Nota</string>
+    <string name="accion_agregar_abono">Agregar abono</string>
+    <string name="abonos_vacio">Aún no hay abonos</string>
+    <string name="abono_excede">El abono supera el saldo</string>
+    <string name="abono_guardado">Abono registrado</string>
+    <string name="abono_eliminado">Abono eliminado</string>
+    <string name="abono_eliminar_titulo">Eliminar abono</string>
+    <string name="abono_eliminar_mensaje">¿Eliminar este abono? Quedará anulado en el historial y el saldo se recalculará.</string>
+    <string name="tipo_cierre">Cierre</string>
+
+    <!-- Saldo a favor -->
+    <string name="saldo_favor_titulo">Saldo a favor</string>
+    <string name="saldo_favor_aplicar_mensaje">El cliente tiene %1$s a favor. ¿Aplicarlo a esta deuda?</string>
+    <string name="saldo_favor_aplicar">Aplicar</string>
+    <string name="saldo_favor_ahora_no">Ahora no</string>
+    <string name="saldo_favor_aplicado">Se aplicaron %1$s del saldo a favor</string>
+    <string name="a_favor_etiqueta">A favor: %1$s</string>
+
+    <!-- Abono general -->
+    <string name="pg_titulo">Abono general</string>
+    <string name="pg_valor_recibido">Valor recibido</string>
+    <string name="pg_usar_favor">Usar el saldo a favor (%1$s)</string>
+    <string name="pg_se_aplicara">Se aplicará a (puedes ajustar cada monto):</string>
+    <string name="pg_sin_deudas">No hay deudas pendientes: todo lo recibido quedará a favor</string>
+    <string name="pg_resumen">Asignado %1$s · Quedará a favor %2$s</string>
+    <string name="pg_registrar">Registrar</string>
+    <string name="pg_se_paga">Se paga</string>
+    <string name="pg_monto_hint">0</string>
+    <string name="pg_detalle_linea">Saldo %1$s · %2$s</string>
+    <string name="pg_registrado">Pago registrado: %1$s en %2$d deudas.</string>
+    <string name="pg_registrado_sobra">Quedan %1$s a favor.</string>
+    <string name="pg_registrado_favor">Pago registrado: %1$s quedó a favor del cliente.</string>
+    <string name="sin_nota">Sin nota</string>
+
+    <!-- Compartir deudas por WhatsApp -->
+    <string name="compartir_menu">Compartir por WhatsApp</string>
+    <string name="compartir_titulo">Compartir con %1$s</string>
+    <string name="compartir_enviar">Enviar</string>
+    <string name="compartir_copiar">Copiar</string>
+    <string name="compartir_copiado">Resumen copiado</string>
+    <string name="compartir_sin_deudas">No tiene deudas pendientes</string>
+    <string name="compartir_sin_whatsapp">No se encontró WhatsApp. El resumen se copió</string>
+    <string name="compartir_chooser">Compartir deudas</string>
+
+    <!-- Respaldos (solo en este celular) -->
+    <string name="respaldos_menu">Respaldos</string>
+    <string name="respaldos_titulo">Respaldos</string>
+    <string name="respaldos_descripcion">Copias guardadas en este celular. Se crea una automática cada 5 días a las 2:00 a. m. (Android puede retrasarla unos minutos) y se conservan las últimas 12.</string>
+    <string name="respaldos_crear">Crear respaldo ahora</string>
+    <string name="respaldos_vacio">Aún no hay respaldos</string>
+    <string name="respaldos_restaurar">Restaurar</string>
+    <string name="respaldos_creado">Respaldo creado</string>
+    <string name="respaldos_error">No se pudo crear el respaldo</string>
+    <string name="respaldos_restaurar_titulo">Restaurar respaldo</string>
+    <string name="respaldos_restaurar_mensaje">Se reemplazarán los datos actuales por los del respaldo del %1$s. Antes se guardará una copia del estado actual. ¿Continuar?</string>
+    <string name="respaldos_restaurado">Respaldo restaurado</string>
+
+    <!-- Generales -->
+    <string name="accion_atras">Atrás</string>
+    <string name="accion_mas">Más opciones</string>
+    <string name="error_operacion">No se pudo completar la operación</string>
+</resources>
